@@ -1,10 +1,13 @@
+:root {
+    --bg-button: #f0f0f0;
+    --border-button: solid 1px #888;
+}
+
 .button {
-    background-color: azure;
+    font-size: 1.4em;
+    background-color: var(--bg-button);
     border: none;
-    color: white;
-    padding: 15px 23px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 6px;
+    border-right: var(--border-button);
+    border-button: var(--border-button);
+    outline: none;
 }
